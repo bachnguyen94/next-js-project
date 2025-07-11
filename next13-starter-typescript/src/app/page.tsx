@@ -6,6 +6,7 @@ import Link from 'next/link'
 import '@styles/app.css'
 import TableComponent from '../components/common/table'
 import useSWR from 'swr'
+import CreateModal from '@/components/addnew/create.modal'
 
 
 
@@ -37,6 +38,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <CreateModal />
       <TableComponent blogs={data ?? []}/>
     </main>
   )

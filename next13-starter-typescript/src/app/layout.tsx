@@ -1,7 +1,9 @@
 // import './globals.css'
 import { Inter } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-toastify/dist/ReactToastify.css';
 import Header from './../components/layout/Header';
+import { ToastContainer, Bounce } from 'react-toastify';
 
 const inter = Inter({ subsets: ['latin'] })
 
